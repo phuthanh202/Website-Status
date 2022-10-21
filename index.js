@@ -37,4 +37,4 @@ client.once('ready', () => {
 });
 
 // Log the bot in
-client.login(bot_token);
+client.login(process.env.DISCORD_TOKEN);
